@@ -1,1 +1,373 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDG 16 - Paz, Justicia e Instituciones Sólidas</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Archivo CSS principal -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="light">
+    <!-- Encabezado del sitio -->
+    <header>
+        <div class="header-buttons">
+            <button class="toggle-theme" aria-label="Cambiar a modo oscuro">
+                <i class="fas fa-moon dark-icon"></i>
+                <i class="fas fa-sun light-icon"></i>
+                <span class="toggle-text">Modo oscuro</span>
+            </button>
+            
+            <button class="language-toggle">
+                <i class="fas fa-globe"></i>
+                <span>English</span>
+            </button>
+        </div>
+        
+        <div class="header-content">
+            <svg class="sdg-logo" width="100" height="100" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="45" fill="#00689D" />
+                <text x="50" y="55" text-anchor="middle" font-size="16" fill="white" font-weight="bold">ODS 16</text>
+                <path d="M30,40 L70,40 M30,50 L70,50 M30,60 L70,60" stroke="white" stroke-width="2" />
+            </svg>
+            
+            <div class="header-text">
+                <h1>Paz, Justicia e Instituciones Sólidas</h1>
+                <p>Promoviendo sociedades pacíficas e inclusivas para el desarrollo sostenible</p>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Barra de navegación -->
+    <nav>
+        <div class="nav-container">
+            <a href="#mascot" class="nav-link">Mascota</a>
+            <a href="#about" class="nav-link">Acerca de ODS 16</a>
+            <a href="#targets" class="nav-link">Objetivos</a>
+            <a href="#challenges" class="nav-link">Retos</a>
+            <a href="#solutions" class="nav-link">Soluciones</a>
+            <a href="#resources" class="nav-link">Recursos</a>
+            <a href="#contact" class="nav-link">Contáctanos</a>
+        </div>
+    </nav>
+    
+    <main>
+        <!-- Mensajes flash para notificaciones -->
+        <div class="flash-messages" id="flash-messages">
+            <!-- Se llenarán dinámicamente con JavaScript -->
+        </div>
+        
+        <!-- Sección de la Mascota -->
+        <section id="mascot" class="section fade-in">
+            <div class="container">
+                <div class="mascot-container">
+                    <div class="mascot-image">
+                        <img src="mascot.svg" alt="SDG 16 Mascot" class="mascot">
+                    </div>
+                    <div class="mascot-text">
+                        <h2>Conoce a Nuestra Mascota</h2>
+                        <p>¡Esta es nuestra mascota del ODS 16, ayudándonos a promover la paz y la justicia de una manera amigable!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Acerca de SDG 16 -->
+        <section id="about" class="section fade-in">
+            <div class="container">
+                <h2>Acerca de ODS 16</h2>
+                <div class="section-content">
+                    <div class="text-content">
+                        <p>El Objetivo de Desarrollo Sostenible 16 busca promover sociedades pacíficas e inclusivas para el desarrollo sostenible, facilitar el acceso a la justicia para todos y construir instituciones eficaces, responsables e inclusivas a todos los niveles.</p>
+                        <p>La paz, la justicia y las instituciones eficaces, responsables e inclusivas son fundamentales para el desarrollo sostenible. Varias regiones han disfrutado de mayores y sostenidos niveles de paz y seguridad en las últimas décadas. Pero muchos países todavía enfrentan violencia prolongada y conflictos armados, y demasiadas personas luchan como resultado de instituciones débiles y falta de acceso a la justicia, información y otras libertades fundamentales.</p>
+                    </div>
+                    <div class="image-container">
+                        <svg class="section-image" width="400" height="300" viewBox="0 0 400 300">
+                            <rect width="400" height="300" fill="#F5F5F5" />
+                            <circle cx="200" cy="100" r="70" fill="#00689D" />
+                            <rect x="130" y="180" width="140" height="80" fill="#3E7E9F" />
+                            <text x="200" y="100" text-anchor="middle" fill="white" font-size="24">Paz</text>
+                            <text x="200" y="220" text-anchor="middle" fill="white" font-size="24">Justicia</text>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Sección de Objetivos Clave -->
+        <section id="targets" class="section fade-in">
+            <div class="container">
+                <h2>Objetivos Clave</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <div class="card-icon">
+                            <i class="fas fa-balance-scale"></i>
+                        </div>
+                        <h3>Reducir la Violencia</h3>
+                        <p>Reducir significativamente todas las formas de violencia y las correspondientes tasas de mortalidad en todo el mundo.</p>
+                    </div>
+                    
+                    <div class="card">
+                        <div class="card-icon">
+                            <i class="fas fa-child"></i>
+                        </div>
+                        <h3>Acabar con el Abuso</h3>
+                        <p>Poner fin al maltrato, la explotación, la trata y todas las formas de violencia contra los niños.</p>
+                    </div>
+                    
+                    <div class="card">
+                        <div class="card-icon">
+                            <i class="fas fa-gavel"></i>
+                        </div>
+                        <h3>Promover el Estado de Derecho</h3>
+                        <p>Promover el estado de derecho en los planos nacional e internacional y garantizar la igualdad de acceso a la justicia para todos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Sección de Retos -->
+        <section id="challenges" class="section fade-in">
+            <div class="container">
+                <h2>Retos Globales</h2>
+                <div class="section-content">
+                    <div class="text-content">
+                        <ul class="challenges-list">
+                            <li>
+                                <strong>Corrupción y Soborno:</strong> Estas prácticas socavan el estado de derecho y desvían recursos del desarrollo sostenible.
+                            </li>
+                            <li>
+                                <strong>Violencia y Conflicto:</strong> Muchas regiones continúan sufriendo violencia armada, inseguridad y abusos contra los derechos humanos.
+                            </li>
+                            <li>
+                                <strong>Instituciones Débiles:</strong> Las instituciones ineficaces, corruptas o sin rendición de cuentas no logran proporcionar servicios esenciales.
+                            </li>
+                            <li>
+                                <strong>Falta de Acceso a la Justicia:</strong> Muchas personas en todo el mundo enfrentan obstáculos para acceder a los sistemas legales y recibir un trato justo.
+                            </li>
+                            <li>
+                                <strong>Exclusión:</strong> Los grupos marginados a menudo carecen de representación y voz en la toma de decisiones.
+                            </li>
+                            <li>
+                                <strong>Acceso Limitado a la Información:</strong> Las restricciones a la libertad de información obstaculizan la transparencia y la rendición de cuentas.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="image-container">
+                        <svg class="section-image" width="400" height="300" viewBox="0 0 400 300">
+                            <rect width="400" height="300" fill="#F5F5F5" />
+                            <path d="M50,250 L350,250" stroke="#333" stroke-width="2" />
+                            <path d="M100,250 L100,150 L150,150 L150,250" fill="#E74C3C" />
+                            <path d="M175,250 L175,100 L225,100 L225,250" fill="#F39C12" />
+                            <path d="M250,250 L250,170 L300,170 L300,250" fill="#3498DB" />
+                            <text x="125" y="280" text-anchor="middle" font-size="12">Violencia</text>
+                            <text x="200" y="280" text-anchor="middle" font-size="12">Corrupción</text>
+                            <text x="275" y="280" text-anchor="middle" font-size="12">Desigualdad</text>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <!-- Sección de Soluciones -->
+        <section id="solutions" class="section fade-in">
+            <div class="container">
+                <h2>Trabajando Hacia Soluciones</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Instituciones Inclusivas</h3>
+                            <p>Construir instituciones eficaces, responsables y transparentes a todos los niveles.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="fas fa-scroll"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Marcos Legales</h3>
+                            <p>Fortalecer los marcos legales y las políticas que apoyan los derechos humanos.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="fas fa-comment-dots"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Participación Pública</h3>
+                            <p>Garantizar una toma de decisiones receptiva, inclusiva, participativa y representativa.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Transparencia</h3>
+                            <p>Mejorar el acceso a la información y promover la transparencia en la gobernanza.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Alianzas</h3>
+                            <p>Fomentar la cooperación global para desarrollar capacidades para el desarrollo sostenible.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Recursos Educativos -->
+        <section id="resources" class="section fade-in">
+            <div class="container">
+                <h2>Recursos Educativos</h2>
+                <div class="resources-grid">
+                    <div class="resource-item">
+                        <div class="resource-icon">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <h3>Informes ONU</h3>
+                        <p>Informes completos sobre el progreso global hacia los objetivos del ODS 16.</p>
+                        <a href="https://sdgs.un.org/goals/goal16" class="resource-link" target="_blank">Saber Más</a>
+                    </div>
+                    
+                    <div class="resource-item">
+                        <div class="resource-icon">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <h3>Recursos de Video</h3>
+                        <p>Videos educativos que explican la importancia de la paz y la justicia.</p>
+                        <a href="https://www.youtube.com/user/unitednations" class="resource-link" target="_blank">Ver Videos</a>
+                    </div>
+                    
+                    <div class="resource-item">
+                        <div class="resource-icon">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <h3>Datos y Estadísticas</h3>
+                        <p>Información estadística sobre métricas de paz global, justicia y gobernanza.</p>
+                        <a href="https://unstats.un.org/sdgs/report/2022/" class="resource-link" target="_blank">Ver Datos</a>
+                    </div>
+                    
+                    <div class="resource-item">
+                        <div class="resource-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h3>Herramientas de Implementación</h3>
+                        <p>Recursos para gobiernos y organizaciones que implementan el ODS 16.</p>
+                        <a href="https://sdg16toolkit.org/" class="resource-link" target="_blank">Acceder a Herramientas</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Formulario de Contacto -->
+        <section id="contact" class="section fade-in">
+            <div class="container">
+                <h2>Contáctanos</h2>
+                <p class="section-intro">¿Tienes preguntas sobre el ODS 16 o quieres participar? ¡Ponte en contacto con nosotros!</p>
+                
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <p>info@sdg16education.org</p>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Global SDG Center, United Nations Plaza</p>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <p>+1 (123) 456-7890</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <form id="contact-form">
+                            <div class="form-group">
+                                <label for="name">Tu Nombre</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Tu Correo Electrónico</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Mensaje</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn">Enviar Mensaje</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Pie de página -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Sobre este Proyecto</h3>
+                <p>Este sitio web educativo está dedicado a crear conciencia sobre el Objetivo de Desarrollo Sostenible 16 de la ONU: Paz, Justicia e Instituciones Sólidas.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Conéctate con Nosotros</h3>
+                <ul>
+                    <li><a href="#contact">Contáctanos</a></li>
+                    <li><a href="#">Newsletter</a></li>
+                    <li><a href="#">Voluntariado</a></li>
+                    <li><a href="#">Colaboraciones</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Aprender Más</h3>
+                <ul>
+                    <li><a href="https://sdgs.un.org/goals/goal16" target="_blank">Sitio Web Oficial ODS 16</a></li>
+                    <li><a href="https://sdgs.un.org/" target="_blank">Desarrollo Sostenible ONU</a></li>
+                    <li><a href="#">Materiales Educativos</a></li>
+                    <li><a href="#">Investigación y Datos</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            <p>© 2025 Proyecto Educativo ODS 16. Todos los derechos reservados.</p>
+            <div class="admin-link">
+                <a href="/admin/login">Admin</a>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Enlace al archivo JavaScript principal -->
+    <script src="script.js"></script>
+</body>
+</html>
