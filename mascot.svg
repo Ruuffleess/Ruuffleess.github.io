@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <g transform="translate(50, 50)">
+    <!-- Cuerpo principal de la mascota -->
+    <path d="M140,100 C100,120 85,180 85,240 C85,300 85,360 140,380 C195,400 260,400 315,380 
+             C370,360 370,300 370,240 C370,180 355,120 315,100 C260,80 195,80 140,100 Z" 
+          fill="none" stroke="#5FBFE9" stroke-width="10"/>
+    
+    <!-- Patas de la mascota -->
+    <line x1="125" y1="380" x2="125" y2="420" stroke="#5FBFE9" stroke-width="10"/>
+    <line x1="175" y1="380" x2="175" y2="420" stroke="#5FBFE9" stroke-width="10"/>
+    <line x1="280" y1="380" x2="280" y2="420" stroke="#5FBFE9" stroke-width="10"/>
+    <line x1="330" y1="380" x2="330" y2="420" stroke="#5FBFE9" stroke-width="10"/>
+    
+    <!-- Tres antenas en la cabeza -->
+    <line x1="200" y1="100" x2="180" y2="60" stroke="#5FBFE9" stroke-width="10"/>
+    <line x1="227" y1="90" x2="227" y2="50" stroke="#5FBFE9" stroke-width="10"/>
+    <line x1="255" y1="100" x2="275" y2="60" stroke="#5FBFE9" stroke-width="10"/>
+    
+    <!-- Ojo izquierdo -->
+    <circle cx="170" cy="200" r="40" fill="#5FBFE9"/>
+    <circle cx="155" cy="185" r="15" fill="white"/>
+    
+    <!-- Ojo derecho -->
+    <circle cx="280" cy="200" r="40" fill="#5FBFE9"/>
+    <circle cx="265" cy="185" r="15" fill="white"/>
+    
+    <!-- Sonrisa -->
+    <path d="M180,270 C210,290 240,290 270,270" stroke="#5FBFE9" stroke-width="10" fill="none"/>
+    
+    <!-- Dientes -->
+    <path d="M225,290 C215,310 235,310 225,290" fill="#5FBFE9"/>
+    <path d="M245,290 C235,310 255,310 245,290" fill="#5FBFE9"/>
+  </g>
+</svg>
