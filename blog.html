@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog sobre Corrupción e Instituciones - SDG 16</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Archivo CSS principal -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Meta tags adicionales para SEO y Open Graph -->
+    <meta name="description" content="Analizamos el impacto de la corrupción en nuestras instituciones y la vida cotidiana, buscando comprender cómo fortalecer nuestra sociedad.">
+    <meta property="og:title" content="Blog sobre Corrupción e Instituciones - SDG 16">
+    <meta property="og:description" content="Analizamos el impacto de la corrupción en nuestras instituciones y la vida cotidiana, buscando comprender cómo fortalecer nuestra sociedad.">
+    <meta property="og:type" content="website">
+</head>
+<body class="light">
+    <!-- Encabezado del sitio -->
+    <header>
+        <div class="header-buttons">
+            <button class="toggle-theme" aria-label="Cambiar a modo oscuro">
+                <i class="fas fa-moon dark-icon"></i>
+                <i class="fas fa-sun light-icon"></i>
+                <span class="toggle-text">Modo oscuro</span>
+            </button>
+            
+            <button class="language-toggle">
+                <i class="fas fa-globe"></i>
+                <span>English</span>
+            </button>
+        </div>
+        
+        <div class="header-content">
+            <svg class="sdg-logo" width="100" height="100" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="45" fill="#00689D" />
+                <text x="50" y="55" text-anchor="middle" font-size="16" fill="white" font-weight="bold">ODS 16</text>
+                <path d="M30,40 L70,40 M30,50 L70,50 M30,60 L70,60" stroke="white" stroke-width="2" />
+            </svg>
+            
+            <div class="header-text">
+                <h1>Paz, Justicia e Instituciones Sólidas</h1>
+                <p>Promoviendo sociedades pacíficas e inclusivas para el desarrollo sostenible</p>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Barra de navegación -->
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="nav-link">Inicio</a>
+            <a href="index.html#about" class="nav-link">Acerca de ODS 16</a>
+            <a href="index.html#targets" class="nav-link">Objetivos</a>
+            <a href="index.html#challenges" class="nav-link">Retos</a>
+            <a href="index.html#solutions" class="nav-link">Soluciones</a>
+            <a href="blog.html" class="nav-link">Blog</a>
+            <a href="index.html#resources" class="nav-link">Recursos</a>
+            <a href="index.html#contact" class="nav-link">Contáctanos</a>
+        </div>
+    </nav>
+    
+    <main>
+        <!-- Mensajes flash para notificaciones -->
+        <div class="flash-messages" id="flash-messages">
+            <!-- Se llenarán dinámicamente con JavaScript -->
+        </div>
+        
+        <!-- Encabezado del blog -->
+        <section class="section fade-in" style="background-color: #f0f8ff;">
+            <div class="container">
+                <h2>Blog: Instituciones y Sociedad</h2>
+                <p class="section-intro">
+                    Analizamos el impacto de la corrupción en nuestras instituciones y la vida cotidiana, buscando comprender cómo fortalecer nuestra sociedad para un desarrollo más justo y sostenible.
+                </p>
+                
+                <!-- Filtros y búsqueda -->
+                <div style="display: flex; flex-wrap: wrap; justify-content: space-between; margin-bottom: 30px; gap: 20px;">
+                    <div class="blog-filters">
+                        <button class="blog-filter-btn active">Todas las categorías</button>
+                        <button class="blog-filter-btn">Corrupción</button>
+                        <button class="blog-filter-btn">Instituciones</button>
+                        <button class="blog-filter-btn">Justicia</button>
+                        <button class="blog-filter-btn">Transparencia</button>
+                    </div>
+                    
+                    <div class="blog-search">
+                        <input type="text" placeholder="Buscar artículos...">
+                        <button><i class="fas fa-search"></i></button>
+                    </div>
+                </div>
+                
+                <!-- Artículo destacado -->
+                <div class="featured-post">
+                    <div class="blog-card">
+                        <div class="blog-card-img-container">
+                            <img src="https://images.unsplash.com/photo-1589578527966-fdac0f44566c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=600" alt="Corrupción cotidiana" class="blog-card-img">
+                            <span class="featured-tag">DESTACADO</span>
+                        </div>
+                        <div class="blog-card-content">
+                            <div class="blog-meta">
+                                <span class="blog-category">Corrupción</span>
+                                <span class="blog-date">15 de Agosto, 2023</span>
+                            </div>
+                            <h3 class="blog-card-title">Corrupción cotidiana: el enemigo invisible de nuestras instituciones</h3>
+                            <p class="blog-card-excerpt">
+                                La corrupción no siempre se presenta como grandes escándalos mediáticos. Muchas veces, sus manifestaciones más dañinas son aquellas que enfrentamos día a día: pequeños sobornos, favores indebidos y abusos de poder que debilitan sistemáticamente nuestras instituciones y erosionan la confianza pública.
+                            </p>
+                            <a href="blog-post.html" class="blog-card-link">
+                                Leer artículo completo <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Recurso destacado: Presentación -->
+                <div style="margin: 40px 0;">
+                    <h3 style="text-align: center; margin-bottom: 20px; color: var(--primary);">Recurso Destacado</h3>
+                    <div class="blog-card" style="max-width: 800px; margin: 0 auto;">
+                        <div class="blog-card-content" style="text-align: center; padding: 30px;">
+                            <div style="margin-bottom: 20px;">
+                                <i class="fas fa-presentation" style="font-size: 3rem; color: var(--primary); margin-bottom: 15px;"></i>
+                            </div>
+                            <h3 style="color: var(--primary); margin-bottom: 15px; font-size: 1.5rem;">Presentación: Corrupción e Instituciones</h3>
+                            <p style="margin-bottom: 20px; color: #666;">
+                                Explora nuestra presentación interactiva sobre el impacto de la corrupción en las instituciones y las estrategias para fortalecer la transparencia y la justicia.
+                            </p>
+                            <a href="https://www.canva.com/design/DAGpN0lL9JQ/HyT1Tge3UYpilAMMMHZQnA/view?utm_content=DAGpN0lL9JQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h74ef93fdbc" 
+                               target="_blank" 
+                               class="btn" 
+                               style="display: inline-flex; align-items: center; gap: 8px;">
+                                <i class="fas fa-external-link-alt"></i>
+                                Ver Presentación
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Grid de artículos -->
+                <h3 style="text-align: center; margin: 40px 0 20px; color: var(--primary);">Todos los artículos</h3>
+                <div class="blog-grid">
+                    <!-- Artículo 1 -->
+                    <div class="blog-card">
+                        <div class="blog-card-img-container">
+                            <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" alt="Burocracia excesiva" class="blog-card-img">
+                        </div>
+                        <div class="blog-card-content">
+                            <div class="blog-meta">
+                                <span class="blog-category">Instituciones</span>
+                                <span class="blog-date">10 de Agosto, 2023</span>
+                            </div>
+                            <h3 class="blog-card-title">La burocracia excesiva: cómo facilita la corrupción</h3>
+                            <p class="blog-card-excerpt">
+                                Los procedimientos burocráticos innecesariamente complejos crean oportunidades para la corrupción y dificultan el acceso ciudadano a servicios básicos.
+                            </p>
+                            <a href="blog-post.html" class="blog-card-link">
+                                Leer más <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Artículo 2 -->
+                    <div class="blog-card">
+                        <div class="blog-card-img-container">
+                            <img src="https://images.unsplash.com/photo-1541872703-74c5e44368f9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" alt="Costo oculto de la corrupción" class="blog-card-img">
+                        </div>
+                        <div class="blog-card-content">
+                            <div class="blog-meta">
+                                <span class="blog-category">Transparencia</span>
+                                <span class="blog-date">5 de Agosto, 2023</span>
+                            </div>
+                            <h3 class="blog-card-title">El costo oculto de la corrupción en servicios públicos</h3>
+                            <p class="blog-card-excerpt">
+                                Cuando los recursos públicos se desvían debido a la corrupción, son los ciudadanos quienes pagan el precio en forma de servicios de menor calidad.
+                            </p>
+                            <a href="blog-post.html" class="blog-card-link">
+                                Leer más <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Artículo 3 -->
+                    <div class="blog-card">
+                        <div class="blog-card-img-container">
+                            <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" alt="Justicia desigual" class="blog-card-img">
+                        </div>
+                        <div class="blog-card-content">
+                            <div class="blog-meta">
+                                <span class="blog-category">Justicia</span>
+                                <span class="blog-date">1 de Agosto, 2023</span>
+                            </div>
+                            <h3 class="blog-card-title">Cuando la justicia no es igual para todos</h3>
+                            <p class="blog-card-excerpt">
+                                Las desigualdades en el acceso a la justicia representan uno de los efectos más perniciosos de la corrupción institucional en nuestra sociedad.
+                            </p>
+                            <a href="blog-post.html" class="blog-card-link">
+                                Leer más <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Artículo 4 -->
+                    <div class="blog-card">
+                        <div class="blog-card-img-container">
+                            <img src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" alt="Participación ciudadana" class="blog-card-img">
+                        </div>
+                        <div class="blog-card-content">
+                            <div class="blog-meta">
+                                <span class="blog-category">Instituciones</span>
+                                <span class="blog-date">28 de Julio, 2023</span>
+                            </div>
+                            <h3 class="blog-card-title">Participación ciudadana: clave para instituciones más sólidas</h3>
+                            <p class="blog-card-excerpt">
+                                La participación activa de la ciudadanía es fundamental para fortalecer las instituciones y garantizar que sirvan al interés público.
+                            </p>
+                            <a href="blog-post.html" class="blog-card-link">
+                                Leer más <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Artículo 5 -->
+                    <div class="blog-card">
+                        <div class="blog-card-img-container">
+                            <img src="https://images.unsplash.com/photo-1576519555934-a7eed7e3a986?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" alt="Transparencia digital" class="blog-card-img">
+                        </div>
+                        <div class="blog-card-content">
+                            <div class="blog-meta">
+                                <span class="blog-category">Transparencia</span>
+                                <span class="blog-date">22 de Julio, 2023</span>
+                            </div>
+                            <h3 class="blog-card-title">Tecnología y transparencia: aliados contra la corrupción</h3>
+                            <p class="blog-card-excerpt">
+                                Las nuevas tecnologías ofrecen herramientas poderosas para promover la transparencia y combatir la corrupción en todos los niveles.
+                            </p>
+                            <a href="blog-post.html" class="blog-card-link">
+                                Leer más <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Artículo 6 -->
+                    <div class="blog-card">
+                        <div class="blog-card-img-container">
+                            <img src="https://images.unsplash.com/photo-1521791055366-0d553872125f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" alt="Educación anticorrupción" class="blog-card-img">
+                        </div>
+                        <div class="blog-card-content">
+                            <div class="blog-meta">
+                                <span class="blog-category">Corrupción</span>
+                                <span class="blog-date">15 de Julio, 2023</span>
+                            </div>
+                            <h3 class="blog-card-title">La educación como antídoto contra la corrupción</h3>
+                            <p class="blog-card-excerpt">
+                                Fomentar valores éticos desde la educación básica puede ser una de las estrategias más efectivas para prevenir la corrupción a largo plazo.
+                            </p>
+                            <a href="blog-post.html" class="blog-card-link">
+                                Leer más <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Paginación -->
+                <div class="blog-pagination">
+                    <a href="#" class="pagination-item active">1</a>
+                    <a href="#" class="pagination-item">2</a>
+                    <a href="#" class="pagination-item">3</a>
+                    <span style="margin: 0 10px;">...</span>
+                    <a href="#" class="pagination-item">
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Pie de página -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Sobre Nosotros</h3>
+                <p>Somos una iniciativa dedicada a promover el ODS 16 - Paz, Justicia e Instituciones Sólidas en todo el mundo a través de la educación, la sensibilización y la acción colectiva.</p>
+                
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Enlaces Rápidos</h3>
+                <ul>
+                    <li><a href="index.html#about">Acerca de ODS 16</a></li>
+                    <li><a href="index.html#targets">Objetivos Clave</a></li>
+                    <li><a href="index.html#challenges">Retos Globales</a></li>
+                    <li><a href="index.html#solutions">Soluciones</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="index.html#resources">Recursos</a></li>
+                    <li><a href="index.html#contact">Contáctanos</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Recursos Adicionales</h3>
+                <ul>
+                    <li><a href="https://sdgs.un.org/goals/goal16" target="_blank">ODS 16 en la ONU</a></li>
+                    <li><a href="https://www.un.org/sustainabledevelopment/es/peace-justice/" target="_blank">Portal ODS de la ONU</a></li>
+                    <li><a href="#">Investigaciones</a></li>
+                    <li><a href="#">Publicaciones</a></li>
+                    <li><a href="#">Eventos</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Boletín Informativo</h3>
+                <p>Suscríbete para recibir actualizaciones sobre nuestras actividades y noticias relacionadas con el ODS 16.</p>
+                
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Tu correo electrónico" required>
+                    <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            <p>&copy; 2023 ODS 16 - Paz, Justicia e Instituciones Sólidas. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Archivo JavaScript principal -->
+    <script src="script.js"></script>
+</body>
+</html>
